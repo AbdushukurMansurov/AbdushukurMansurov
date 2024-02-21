@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    object-fit: contain;
+}
+main{
+    padding: 150px 0;
+    background-color:#F3D7B7;
+}
+footer{
+    background-color:#F3D7B7;
+    padding: 100px;
+}
+.not_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 26px;
+    background-color:#F3D7B7;
+}
+.container{
+    width: 1200px;
+    margin: 10px auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list ,.nav_list1{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+}
+.nav_link , .nav_link1{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+.coffe{
+    width: 650px;
+    position: absolute;
+    left: 650px;
+    top: -60px;
+    object-fit: contain;
+}
+.cof_logo{
+    position: absolute;
+    top: -150px;
+    left: 550px;
+    object-fit: contain;
+}
+.text_name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 40px;
+}
+.btn{
+    background-color:#0A775F;
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+}
+.text{
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.box{
+    width: 35%;
+    position: relative;
+}
+.heading_3{
+    margin: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+img{
+    object-fit: contain;
+
+}
+.kopi4_heading{
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 56.25px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+.kopilar{
+    width: 32%;
+}
+.rasm_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kopi1{
+    width: 466px;
+    height: 50%;
+}
+.pubg{
+    width: 32%;
+    margin: 200px;
+}
+.rasm_text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kopi2{
+    width: 466px;
+}
+.hub{
+    width: 5%;
+}
+.divmi{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.ul_list1{
+    width: 100px;
+}
+.nav_list1{
+   margin-left: 200px;
+}
